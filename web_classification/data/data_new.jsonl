@@ -3,3 +3,5 @@
 {"url": "https://www.apple.com", "answer": "Mobile", "evidence": "Both"}
 {"url": "https://www.bing.com", "answer": "Search", "evidence": "Both"}
 {"url": "https://en.softonic.com/", "answer": "Software", "evidence": "Both"}
+{"url": "https://www.rottentomatoes.com/", "answer": "Movies", "evidence": "Both"}
+
