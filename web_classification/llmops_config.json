@@ -1,22 +1,22 @@
 {
     "envs":[
-                {
-                    "ENV_NAME": "pr",
-                    "RUNTIME_NAME": "",
-                    "KEYVAULT_NAME": "",
-                    "RESOURCE_GROUP_NAME": "",
-                    "WORKSPACE_NAME": "",
-                    "STANDARD_FLOW_PATH": "flows/experiment",
-                    "EVALUATION_FLOW_PATH": "flows/evaluation"
-                },
-                {
-                    "ENV_NAME": "dev",
-                    "RUNTIME_NAME": "",
-                    "KEYVAULT_NAME": "",
-                    "RESOURCE_GROUP_NAME": "",
-                    "WORKSPACE_NAME": "",
-                    "STANDARD_FLOW_PATH": "flows/experiment",
-                    "EVALUATION_FLOW_PATH": "flows/evaluation, flows/evaluation_adv"
-                }
-            ]
-        }
+            {
+                "ENV_NAME": "dev",
+                "RUNTIME_NAME": "loonyruntime",
+                "KEYVAULT_NAME": "loonyazmlws0824049147",
+                "RESOURCE_GROUP_NAME": "loony-openai-rg-1",
+                "WORKSPACE_NAME": "loony-azml-ws",
+                "STANDARD_FLOW_PATH": "flows/standard",
+                "EVALUATION_FLOW_PATH": "flows/evaluation"
+            },
+            {
+                "ENV_NAME": "pr",
+                "RUNTIME_NAME": "loonyruntime",
+                "KEYVAULT_NAME": "loonyazmlws0824049147",
+                "RESOURCE_GROUP_NAME": "loony-openai-rg-1",
+                "WORKSPACE_NAME": "loony-azml-ws",
+                "STANDARD_FLOW_PATH": "flows/standard",
+                "EVALUATION_FLOW_PATH": "flows/evaluation"
+            }
+    ]
+}
